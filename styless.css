@@ -1,0 +1,134 @@
+.navbottom {
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+
+.navs {
+    display: flex;
+}
+
+.logotext {
+    margin-right: auto;
+}
+
+.intro { 
+    display: flex;
+    height: 400px;
+    margin-top: 50px;
+}
+
+
+.btntwo {
+    color: red;
+}
+
+.empower-box1 {
+    width: 50%;
+    padding: 80px;
+}
+
+.empower-box2 {
+    width: 50%;
+}
+
+.card {
+    width: 250px;
+}
+
+.key-text {
+    text-align: center;
+}
+
+.key-benifits {
+    margin: 50px 50px;
+}  
+
+.key-benefits-bottom {
+    margin: 150px auto;
+}
+
+.key-benefits-cards {
+    display: flex;
+    gap: 30px;
+}
+.ben-bottom{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.box1{ 
+    width: 300px;
+    font-weight: 700;
+    font-size: var(--size-30) ;
+}
+.box2 { width: 400px;}
+
+.why-front-text {
+    text-align: center;
+}
+.video {
+    height:;
+    width: 750px;
+    justify-self: center;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+
+.girl-pic-wrapper {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.girl-pic {
+    width: 400px;
+}
+
+.girl-text {
+    align-self: center;
+    width: 400px;
+    padding-right: 100px;
+}
+
+.partners {
+    margin: 100px;
+}
+
+.partner-logos {
+    margin: auto;
+    width: 800px;
+   justify-content: space-evenly;
+   display: flex;
+}
+
+.partner-text {
+  text-align: center;
+    margin-top: 100px;
+    font-size: var(--size-10);
+}
+
+.prices {
+    text-align: center;
+}
+
+.pricing-grid {
+    text-align: left;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 200px);
+}
+
+.card1 {
+    justify-items: center;
+    width: 300px;
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+
+.prices-text {
+    margin-bottom: 100px;
+}

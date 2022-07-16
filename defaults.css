@@ -1,0 +1,106 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --font-color-base: #666;
+    --font-color-dark: #212529;
+    --font-color-light: #b0aebe;
+    --font-color-link: #57a6ff;
+    --footer: #34314b ;
+    --footer-base: #2e2b45;
+    --contrast: rgba(195, 196, 197, 0.8);
+    --success: #2dd62d;
+    --danger: #ff8b8d;
+    --grad-1: #a1ecff;
+    --grad-2: #7dbcff;
+ 
+    --size-10: 0.625rem;
+    --size-14: 0.875;
+    --size-16: 1rem;
+    --size-18: 1.125rem;
+    --size-20: 1.25rem;
+    --size-30: 1.875rem;
+    --size-40: 2.5rem;
+    --size-50: 3.125rem;
+    --size-100: 6.25rem;
+    --size-150: 9.375rem;
+}
+
+body {
+    max-width: 1200px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: (--size-14);
+    line-height: 1.6;
+    letter-spacing: 0;
+    color: var(--font-color-base);
+    margin: auto;
+    padding: 0;
+ }
+
+ *,
+::after,
+::before {
+box-sizing: border-box;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;    
+}
+
+a {
+    text-decoration: none ;
+    color: var(--font-color-base);
+}
+
+p { 
+    margin-top: 0; 
+    color: var(--font-color-dark);
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: var(--size-30);
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    color: var(--white);
+    font-size: var(--size-10);
+    background-color: blue;
+    border-radius: 15px;
+    padding: 10px 15px ;
+}
+
+.btn-link {
+    color: var(--font-color-link);
+}
+
+.logos {
+    width: 100px;
+    height: 40px;
+}
