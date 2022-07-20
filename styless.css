@@ -3,6 +3,17 @@
     height: 40px;
     align-items: center;
 }
+.navbottom > a {
+    margin-right: auto;
+}
+
+.navbar-toggler { 
+    display: none;
+}
+
+.navbar-toggler span {
+    pointer-events: none;
+}
 
 .navs {
     display: flex;
@@ -12,32 +23,93 @@
     margin-right: auto;
 }
 
+.frontlogo {
+    width: 150px;
+    padding: 15px 10px;
+}
+
 .intro { 
     display: flex;
     height: 400px;
-    margin-top: 50px;
 }
-
 
 .btntwo {
     color: red;
 }
 
-.empower-box1 {
-    width: 50%;
-    padding: 80px;
+.money { 
+    font-size: var(--size-40);
+    color: var(--black)
+
 }
 
-.empower-box2 {
-    width: 50%;
+.empower-box1 {
+    display: flex;
+    width: 100%;
+    padding: 80px;
+    justify-content: space-around;
 }
+
+.empower-icons {
+    display: grid;
+    grid-template-columns: repeat(5, 75px);
+    grid-template-rows: repeat(4, 75px);
+    align-items: center;
+    justify-items: center;
+}
+
+.icon1 {
+    grid-column: 1 / 1 ;
+    grid-row: 1/1 ;
+}
+
+.icon2 {
+    grid-column: 1 ;
+    grid-row: 3 ;
+}
+
+.icon3 {
+    grid-column:5 ;
+    grid-row: 1 ;
+}
+
+.icon4 { 
+    grid-column: 2 ;
+    grid-row: 4 ; 
+}
+
+.icon5 {  
+    grid-column: 3;
+    grid-row: 2; 
+}
+
+.icon6 {
+    grid-column: 4;
+    grid-row: 3;
+}
+
+.icon7 {
+    grid-column: 5 ;
+    grid-row: 4 ;
+}
+
+.empowerfirst a { margin-right: 15px;}
+
+.empower-icons div {
+  width: 30px;
+}
+
+.card:hover { background-color: rgb(209, 206, 206);}
 
 .card {
-    width: 250px;
+    width: 220px;
+    margin: auto;
+    border-radius: 5px;
 }
 
 .key-text {
     text-align: center;
+    margin: 75px 0;
 }
 
 .key-benifits {
@@ -52,10 +124,17 @@
     display: flex;
     gap: 30px;
 }
+
+.key-benefits-cards img {
+    width: 30px;
+}
+
 .ben-bottom{
+    width: 70%;
     display: flex;
     justify-content: center;
     gap: 40px;
+    background-color: var(--font-color-light);
 }
 
 .box1{ 
@@ -63,13 +142,13 @@
     font-weight: 700;
     font-size: var(--size-30) ;
 }
+
 .box2 { width: 400px;}
 
 .why-front-text {
     text-align: center;
 }
 .video {
-    height:;
     width: 750px;
     justify-self: center;
     margin: auto;
@@ -93,19 +172,23 @@
     padding-right: 100px;
 }
 
+.hubspot { 
+    width: 125px;
+    margin-bottom: 10px;
+}
+
 .partners {
-    margin: 100px;
+    margin: 100px 0;
 }
 
 .partner-logos {
     margin: auto;
-    width: 800px;
-   justify-content: space-evenly;
-   display: flex;
+    justify-content: space-evenly;
+    display: flex;
 }
 
 .partner-text {
-  text-align: center;
+    text-align: center;
     margin-top: 100px;
     font-size: var(--size-10);
 }
@@ -117,14 +200,28 @@
 .pricing-grid {
     text-align: left;
     display: grid;
+    margin-bottom: 50px;
     justify-items: center;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, auto);
     grid-template-rows: repeat(2, 200px);
+}
+
+.price-cards {
+   min-width: 250px;
+   margin-right: 75px;
+}
+
+.price-cards img {
+    width: 30px;
+}
+
+.price-cards p {
+    color: var(--font-color-base);
 }
 
 .card1 {
     justify-items: center;
-    width: 300px;
+    width: 250px;
     grid-column: 1 / 3;
     grid-row: 1 / 3;
 }
@@ -132,3 +229,150 @@
 .prices-text {
     margin-bottom: 100px;
 }
+
+.blue-section {
+    min-width: 700px;
+    height: 550px;
+    background-color: rgb(26, 23, 110);
+    background-image: url("/assets/saas-project-assets/abstract/hire-us-transparent-pattern-bg.svg");
+}
+
+.goal {
+    margin-top: -20px;
+    font-size: var(--size-12);
+}
+
+.beautiful { 
+    margin-top: 30px;
+}
+
+.james {
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+.hireboxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hire-box1 {
+    text-align: left;
+    width: 300px;
+    padding-top: 80px;
+}
+
+.hire-box1 h4 {
+    font-size: var(--size-30);
+    color: var(--white);
+}
+
+.hire-box1 div {
+    color: var(--white);
+    padding: 10px;
+}
+
+.hireus {
+    font-size: var(--size-30);
+    font-weight: 600;
+}
+
+.hire-box2 {
+    width: 400px;
+}
+
+.form {
+    width: 340px;
+    height: 450px;
+    background-color: var(--white);
+    padding:10px 10px;
+    margin-top: 45px;
+    border-radius: 6px;
+}
+.form h4 { padding-left: 15px;}
+
+.form input {
+    width: 150px;
+    height: 35px;
+    border: none;    
+}
+
+.form select {
+    width: 120px;
+    height: 30px;
+    margin: 10px 15px;
+}
+
+textarea { 
+    margin-top: 10px;
+    margin-left: 10px;
+    resize: none;}
+
+.form a { color: var(--white);}
+
+.form-btn { 
+    margin-top: 10px;
+    margin-left: 35px;
+    padding: 5px;
+    text-align: center;
+    color: var(--white);
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 250px;
+    height: 40px;
+    background-color: rgb(44, 44, 224);
+ }
+
+ .hire-us-img {
+    margin-left: 20px;
+    gap: 20px;
+    display: flex;
+    width: 70px;
+ }
+
+ .bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: max-content;
+    margin: auto;
+    justify-content: center;
+ }
+
+ .foot {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+ }
+
+ .foot div {
+    margin: 10px 0;
+ }
+
+ .foot a {
+    padding: 5px;
+ }
+
+ .footer-bottom {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+ }
+
+ .footer-bottom i {
+    padding: 10px;
+ }
+
+ .footer-bottom > div {
+    margin-right: auto;
+ }
+
+ .very1, .very2 { 
+    text-align: center;
+    margin: 15px 100px;
+    font-size: var(--size-10);
+
+}
+
+ 

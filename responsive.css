@@ -1,0 +1,153 @@
+@media screen and (max-width:768px) {
+
+    [aria-controls="navbarDropdown"] {
+        display: block;
+     }
+
+     [aria-expanded="false"] ~ ul {
+        display: none;
+     }
+
+     [aria-expanded="true"] ~ ul {
+        display: block; 
+        position: absolute;
+        right: 0;
+        top: var(--size-50);
+        background-image: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.7));
+        width: 100%;
+        text-align: right;
+        box-shadow: 0px 0px 20px rgba(52, 49, 75, 0.1);
+     }
+
+     [aria-expanded="true"] ~ ul li  {
+      margin-right: var(--size-20);
+      color: var(--font-color-dark);
+     }
+
+.navbar-toggler {
+    position: absolute;
+    left: 93%;
+    background-color: transparent;
+    border: 2px solid blue;
+    border-radius: 3px;
+    z-index: 1000;
+}
+
+.btnn { color: white;}
+
+.empower-box1 {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.empowerfirst {
+    margin-bottom: 50px;
+    width: inherit;
+}
+
+.key-text {
+    margin: 40px;
+}
+
+.empowerfirst { z-index: 1;}
+
+.key-benefits-cards {
+    flex-wrap: wrap;
+}
+
+.key-benefits-bottom { margin: 50px auto;}
+
+.ben-bottom {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box1 { width: 90%;}
+.box2 { width: auto;}
+
+.girl-pic-wrapper {
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.pricing-grid {
+    display: grid;
+    justify-items: start;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 120px);
+    justify-content: center;
+    align-items: stretch;
+}
+
+.pricetext { width: 400px;}
+
+.hireboxes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.blue-section {
+    height: fit-content;
+    min-width: none;
+}
+
+.hire-box1 { width: auto;}
+
+.form { 
+    text-align: center;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.form input { 
+   
+}
+
+.form-btn {
+margin: auto;
+}
+
+.form select { width: 200px;}
+
+.bottom {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.foot1 {
+    width: 600px;
+}
+
+.foot {
+    width: 250px;
+    justify-content: space-evenly;
+}
+
+.footer-bottom {
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.very1, .very2 { 
+    text-align: left;
+    margin: 10px 10px;
+}
+
+.footericons {
+    flex-direction: row;
+}
+
+}
+
+@media screen and (max-width: 375px) {
+    .navbottom {width: 375px;}
+    .video { width: 100%;}
+    .navbar-toggler { left: 85%;}
+    .empower-box1 { padding: 0;}
+    .key-text { margin: 0;}
+    
+}
