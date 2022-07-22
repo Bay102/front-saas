@@ -78,7 +78,6 @@ img {
     max-width: 100%;
     vertical-align: middle;
     border-style: none;
-    border-radius: 10px;
 }
 
 .container {
@@ -111,3 +110,5 @@ img {
 i { padding-left: 5px;}
 
 h4 { color: var(--font-color-dark);}
+
+.user-pic { border-radius: 50px;}

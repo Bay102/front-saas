@@ -24,6 +24,8 @@
       color: var(--font-color-dark);
      }
 
+     .container { padding: 0;}
+
 .navbar-toggler {
     position: absolute;
     left: 93%;
@@ -41,10 +43,15 @@
     padding: 10px;
 }
 
+.empower-icons { justify-items: center;}
+
 .empowerfirst {
     margin-bottom: 50px;
     width: inherit;
 }
+
+.icon4 { display: none;}
+.icon7 {display: none;}
 
 .key-text {
     margin: 40px;
@@ -56,12 +63,19 @@
     flex-wrap: wrap;
 }
 
+.key-benifits {
+    margin: 19px 10px;
+}
+
+.card { width: 265px;}
+
 .key-benefits-bottom { margin: 50px auto;}
 
 .ben-bottom {
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    height: max-content;
 }
 
 .box1 { width: 90%;}
@@ -72,7 +86,14 @@
     align-items: center;
 }
 
+.girl-text { width: 500px; }
+
+.weebly {display: none;}
+.spotify {display: none;}
+
+
 .pricing-grid {
+    margin: 5px 10px;
     display: grid;
     justify-items: start;
     grid-template-columns: repeat(2, 1fr);
@@ -95,7 +116,14 @@
     min-width: none;
 }
 
-.hire-box1 { width: auto;}
+.hire-box1 { 
+    width: auto;
+    padding: 0;
+}
+.hire-box2 { 
+    margin: auto;
+    width: 500px;
+}
 
 .form { 
     text-align: center;
@@ -103,13 +131,7 @@
     width: 100%;
 }
 
-.form input { 
-   
-}
-
-.form-btn {
-margin: auto;
-}
+.form-btn { margin: auto; }
 
 .form select { width: 200px;}
 
@@ -145,9 +167,67 @@ margin: auto;
 
 @media screen and (max-width: 375px) {
     .navbottom {width: 375px;}
-    .video { width: 100%;}
+    .video { 
+        width: 100%;
+        padding: 0%;
+        margin: 50px 0;
+    }
     .navbar-toggler { left: 85%;}
-    .empower-box1 { padding: 0;}
+    .empower-box1 {
+        margin-top: 15px;
+         padding: 0;
+        }
+
+    .empower-title {
+        font-size: 35px;
+        color: var(--black);
+        font-weight: 500;
+        line-height: 1.1;
+    }
+
+    .empower-icons { grid-template-columns: repeat(5, 65px); }
+
     .key-text { margin: 0;}
+
+    .ben-bottom { width: 95%;}
+
+    .pricing-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blue-section { width: 375px;}
     
+    .price-cards { margin: 0; }
+
+    .card2 { margin-top: 60px;}
+
+    .partner-logos { gap: 20px;}
+
+    .hire-boxes { 
+        width: min-content; 
+        flex-direction: column;
+    }
+
+    .beautiful { 
+        font-size: 15px;
+        width: 65%;
+    }
+
+    .line1, .line2, .line3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.form select { width: 86%;}
+
+    .form { 
+        margin: 20px 20px;
+        width: min-content;
+        height: max-content;
+    }
+
+    .footer-bottom { display: initial;}
+    .bottom { gap: 0;}
+
 }
