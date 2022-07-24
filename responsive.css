@@ -71,6 +71,8 @@
 .box1 { width: 90%;}
 .box2 { width: auto;}
 
+.girl { margin-left: 0;}
+
 .girl-pic-wrapper {
     flex-wrap: wrap;
     align-items: center;
@@ -136,7 +138,6 @@
 
 .bottom {
     flex-wrap: wrap;
-    justify-content: flex-start;
 }
 
 .foot1 {
@@ -149,7 +150,7 @@
 }
 
 .footer-bottom {
-    flex-direction: column;
+    flex-direction: row;
     margin: 10px 0;
 }
 

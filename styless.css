@@ -12,12 +12,12 @@
 
 .frontlogo {
     width: 150px;
-    padding: 15px 10px;
+    padding: 15px var(--size-10);
 }
 
 .gradient { 
     background: rgb(244,249,250);
-    background: linear-gradient(169deg, rgba(244,249,250,1) 74%, rgba(223,233,236,0.9962359943977591) 74%, rgba(223,233,236,1) 100%, rgba(223,233,236,1) 100%);
+    background: linear-gradient(127deg, rgba(244,249,250,1) 74%, rgba(223,233,236,0.9962359943977591) 74%, rgba(223,233,236,1) 100%, rgba(223,233,236,1) 100%);
     margin-top: 15px;
 }
 
@@ -46,7 +46,7 @@
 .month { 
     font-size: 16px;
     align-items: flex-end;
-    padding-bottom: 10px;
+    padding-bottom: var(--size-10);
 }
 
 .empower-box1 {
@@ -67,7 +67,7 @@
 
 .icon-width { 
     width: 80px;
-    padding: 10px;
+    padding: var(--size-10);
 }
 
 .icon1 {
@@ -223,26 +223,30 @@
     grid-template-columns: repeat(2, 100px);
     grid-template-rows: repeat(2, auto);
     background-repeat: no-repeat;
-    position: relative;
-    right: 485px;
-    bottom: -182px;
+    position: absolute;
+    bottom: -31px;
+    left: 30px;
     z-index: -1;
 }
 
 .girl {  
     width: 450px;
-    border-radius: 10px;
+    border-radius: var(--size-10);
     margin-left: 60px;
     z-index: 100;
 }
 
 .girl-pic-container { 
+    position: relative;
     display: flex;
-    gap: 10px;
+    gap: var(--size-10);
+    padding: var(--size-10);
 }
 
 
 .girl-text {
+    padding-left: 70px;
+    max-width: 400px;
     align-self: center;
     min-width: 275px;  
 }
@@ -257,7 +261,7 @@
 
 .hubspot { 
     width: 125px;
-    margin-bottom: 10px;
+    margin-bottom: var(--size-10);
 }
 
 .partners { margin: 100px 0; }
@@ -320,12 +324,12 @@
 }
 
 .beautiful { 
-    margin-top: 10px;
+    margin-top: var(--size-10);
     font-size: 20px; 
 }
 
 .james {
-    margin-top: 10px;
+    margin-top: var(--size-10);
     margin-bottom: -20px;
 }
 
@@ -348,7 +352,7 @@
 
 .hire-box1 div {
     color: var(--white);
-    padding: 10px;
+    padding: var(--size-10);
 }
 
 .hireus {
@@ -424,6 +428,7 @@ textarea {
     height: max-content;
     margin: auto;
     justify-content: center;
+    align-items: flex-start;
  }
 
  .foot {
