@@ -1,6 +1,7 @@
 .navbottom {
     display: flex;
     height: 40px;
+    padding: 3px 7px;
     align-items: center;
 }
 .navbottom > a { margin-right: auto;}
@@ -14,8 +15,14 @@
     padding: 15px 10px;
 }
 
+.gradient { 
+    background: rgb(244,249,250);
+    background: linear-gradient(169deg, rgba(244,249,250,1) 74%, rgba(223,233,236,0.9962359943977591) 74%, rgba(223,233,236,1) 100%, rgba(223,233,236,1) 100%);
+    margin-top: 15px;
+}
+
 .empower-title {
-    font-size: 50px;
+    font-size: 53px;
     color: var(--black);
     font-weight: 550;
     line-height: 1;
@@ -45,7 +52,7 @@
 .empower-box1 {
     display: flex;
     width: 100%;
-    padding: 80px;
+    padding: 65px;
     justify-content: space-around;
 }
 
@@ -53,60 +60,98 @@
     display: grid;
     grid-template-columns: repeat(5, 75px);
     grid-template-rows: repeat(4, 75px);
+    padding-top: 20px;
     align-items: center;
     justify-items: center;
+}
+
+.icon-width { 
+    width: 80px;
+    padding: 10px;
 }
 
 .icon1 {
     grid-column: 1 / 1 ;
     grid-row: 1/1 ;
+    height: 40px;
+    width: 40px;
+    border-radius: 180px;
+    background-color:var(--white);
 }
 
 .icon2 {
     grid-column: 1 ;
     grid-row: 3 ;
+    height: 40px;
+    width: 40px;
+    border-radius: 180px;
+    background-color: var(--white);
 }
 
 .icon3 {
     grid-column:5 ;
     grid-row: 1 ;
+    height: 40px;
+    width: 40px;
+    border-radius: 180px;
+    background-color: var(--white);
 }
+
 
 .icon4 { 
     grid-column: 2 ;
     grid-row: 4 ; 
+    height: 40px;
+    width: 40px;
+    border-radius: 180px;
+    background-color: var(--white);
 }
 
 .icon5 {  
     grid-column: 3;
-    grid-row: 2; 
+    grid-row: 2;
+    height: 40px;
+    width: 40px;
+    border-radius: 180px;
+    background-color:var(--white); 
 }
 
 .icon6 {
     grid-column: 4;
     grid-row: 3;
+    height: 40px;
+    width: 40px;
+    border-radius: 180px;
+    background-color: var(--white);
 }
 
 .icon7 {
     grid-column: 5 ;
     grid-row: 4 ;
+    height: 40px;
+    width: 40px;
+    border-radius: 180px;
+    background-color:var(--white);
 }
 
-.empowerfirst a { margin-right: 15px;}
+.empowerfirst { width: 45%; }
 
-.empower-icons div { width: 30px; }
+.empowerfirst a { margin-right: 15px;}
 
 .card:hover { background-color:gainsboro;}
 
 .card {
-    width: 220px;
+    width: 275px;
+    min-width: 175px;
     margin: auto;
     border-radius: 5px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
 .key-text {
     text-align: center;
-    margin: 75px 0;
+    margin: 50px 0;
 }
 
 .key-benefits { margin: 50px 50px; }  
@@ -124,7 +169,6 @@
     width: 70%;
     display: flex;
     justify-content: center;
-    gap: 40px;
     background-color: rgb(238, 242, 246);
 }
 
@@ -152,11 +196,17 @@
 .box2 { width: 400px;}
 
 .why-front-text { text-align: center; }
+.why-front-wrapper { height:max-content ;}
 
-.video {
-    width: 700px;
+.video { 
+    width: 75%;
     margin: auto;
-    padding: 70px 0;
+    padding: 45px 10px;
+}
+
+.video-pic { 
+    height: 400px;
+    width: 100%;
 }
 
 .play-btn i { 
@@ -164,27 +214,43 @@
     top: 1750px
 }
 
-.girl { 
-    width: 450px;
-    border-radius: 10px;
+.dot-grid {
+    background-image: url(/assets/saas-project-assets/icons/dots.svg);
+    margin: 5px;
+    width: 500px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, auto);
+    background-repeat: no-repeat;
+    position: relative;
+    right: 485px;
+    bottom: -182px;
+    z-index: -1;
 }
 
-.girl-pic-wrapper {
-    display: flex;
-    gap: 40px;
-    justify-content: center;
+.girl {  
+    width: 450px;
+    border-radius: 10px;
+    margin-left: 60px;
+    z-index: 100;
 }
+
+.girl-pic-container { 
+    display: flex;
+    gap: 10px;
+}
+
 
 .girl-text {
     align-self: center;
-    width: 400px;
-    padding-right: 100px;
+    min-width: 275px;  
 }
 
 .girl-text-bottom {
     font-size: 16px;
     font-weight: 600;
-    color: var(--black);
+    color: var(--black); 
 }
 
 .girl-title { font-size: 10px; }
@@ -229,7 +295,12 @@
 
 .card1 {
     justify-items: center;
-    width: 250px;
+    width: 350px;
+    height: 300px;
+    margin: 35px 30px;
+    padding: 35px;
+    box-shadow: 0px 0px 20px rgba(52, 49, 75, 0.1);
+    border-radius: var(--size-10);
     grid-column: 1 / 3;
     grid-row: 1 / 3;
 }
@@ -237,6 +308,7 @@
 .prices-text { margin-bottom: 75px; }
 
 .blue-section {
+    padding: 0 10px;
     height: max-content;
     background-color: rgb(26, 23, 110);
     background-image: url("/assets/saas-project-assets/abstract/hire-us-transparent-pattern-bg.svg");
@@ -298,7 +370,6 @@
 
 .form input {
     text-align: center;
-    margin:  ;
     width: 85%;
     height: 35px;
     border: 1px solid grey;
@@ -337,9 +408,7 @@ textarea {
 
 .line1, 
 .line2,
-.line3 {
-    display: flex;
-}
+.line3 { display: flex; }
 
  .hire-us-img {
     margin-left: 20px;
@@ -351,7 +420,7 @@ textarea {
  .bottom {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 50px;
     height: max-content;
     margin: auto;
     justify-content: center;
@@ -381,5 +450,3 @@ textarea {
     margin: 15px 100px;
     font-size: var(--size-10);
 }
-
- 

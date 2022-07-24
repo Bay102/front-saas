@@ -1,4 +1,4 @@
-@media screen and (max-width:768px) {
+@media screen and (max-width:800px) {
 
     [aria-controls="navbarDropdown"] {
         display: block;
@@ -53,19 +53,9 @@
 .icon4 { display: none;}
 .icon7 {display: none;}
 
-.key-text {
-    margin: 40px;
-}
+.key-text { margin: 40px; }
 
-.empowerfirst { z-index: 1;}
-
-.key-benefits-cards {
-    flex-wrap: wrap;
-}
-
-.key-benifits {
-    margin: 19px 10px;
-}
+.key-benefits-cards { flex-wrap: wrap; }
 
 .card { width: 265px;}
 
@@ -86,7 +76,11 @@
     align-items: center;
 }
 
+.video-pic { height: auto ;}
+
 .girl-text { width: 500px; }
+
+.dot-grid { display: none;}
 
 .weebly {display: none;}
 .spotify {display: none;}
@@ -102,8 +96,13 @@
     align-items: stretch;
 }
 
-.pricetext { width: 400px;}
 
+.card1 {
+    width: 325px;
+    height: max-content;
+    margin: auto;
+    padding: 10px;
+}
 .hireboxes {
     display: flex;
     justify-content: space-evenly;
@@ -165,12 +164,16 @@
 
 }
 
+@media screen and (max-width: 450px) {
+
+}
+
 @media screen and (max-width: 375px) {
     .navbottom {width: 375px;}
     .video { 
         width: 100%;
         padding: 0%;
-        margin: 50px 0;
+        margin: 10px 5px;
     }
     .navbar-toggler { left: 85%;}
     .empower-box1 {
@@ -185,10 +188,30 @@
         line-height: 1.1;
     }
 
+    .video-pic { 
+        margin: 20px 20px;
+        width: 90%;
+        height: 200px;
+    }
+    
     .empower-icons { grid-template-columns: repeat(5, 65px); }
-
     .key-text { margin: 0;}
+    .why-front-text { padding: 10px;}
 
+    .girl { 
+        margin: auto;
+        padding: 10px;
+    }
+
+    .girl-pic-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .girl-text { 
+        padding: 10px;
+        width: 350px;
+    }
     .ben-bottom { width: 95%;}
 
     .pricing-grid {
@@ -196,12 +219,13 @@
         flex-direction: column;
     }
 
+    .light-text {     
+        padding: 0px 25px;
+        text-align: justify;}
+
     .blue-section { width: 375px;}
-    
     .price-cards { margin: 0; }
-
     .card2 { margin-top: 60px;}
-
     .partner-logos { gap: 20px;}
 
     .hire-boxes { 
@@ -217,17 +241,17 @@
     .line1, .line2, .line3 {
     display: flex;
     flex-direction: column;
-}
-
-.form select { width: 86%;}
+    }
+ 
+    .form select { width: 86%;}
 
     .form { 
-        margin: 20px 20px;
+        margin: 20px 2px;
         width: min-content;
         height: max-content;
     }
 
     .footer-bottom { display: initial;}
-    .bottom { gap: 0;}
+    .bottom { gap: 0; }
 
 }
