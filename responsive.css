@@ -106,6 +106,7 @@
     padding: 10px;
 }
 .hire-boxes {
+    height: 100%;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -162,10 +163,6 @@
 .footericons {
     flex-direction: row;
 }
-
-}
-
-@media screen and (max-width: 450px) {
 
 }
 
@@ -248,17 +245,15 @@
     .form select { width: 86%;}
 
     .form { 
-       
         width: min-content;
         height: max-content;
     }
 
     .footer-bottom { display: initial;}
+
     .bottom { 
         gap: 0;
         justify-content: flex-start;
      }
-
-    .
 
 }
