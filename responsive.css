@@ -68,8 +68,14 @@
     height: max-content;
 }
 
-.box1 { width: 90%;}
-.box2 { width: auto;}
+.box1 { 
+    width: 90%;
+    margin: 10px;
+}
+.box2 { 
+    width: auto;
+    margin: 25px 0px 0px 100px;
+}
 
 .girl { margin-left: 0;}
 
@@ -167,7 +173,7 @@
 }
 
 @media screen and (max-width: 390px) {
-    .navbottom {width: 375px;}
+    .navbottom {width: 390px;}
     .video { 
         width: 100%;
         padding: 0%;
