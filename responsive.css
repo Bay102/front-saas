@@ -230,7 +230,7 @@
     .partner-logos { gap: 20px;}
 
     .hire-boxes { 
-        width: min-content; 
+        
         flex-direction: column;
     }
 
@@ -247,7 +247,7 @@
     .form select { width: 86%;}
 
     .form { 
-        margin: 20px 2px;
+       
         width: min-content;
         height: max-content;
     }
