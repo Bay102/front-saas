@@ -236,7 +236,7 @@
 
     .beautiful { 
         font-size: 15px;
-        width: 65%;
+        width: 80%;
     }
 
     .line1, .line2, .line3 {
@@ -253,6 +253,11 @@
     }
 
     .footer-bottom { display: initial;}
-    .bottom { gap: 0; }
+    .bottom { 
+        gap: 0;
+        justify-content: flex-start;
+     }
+
+    .
 
 }
