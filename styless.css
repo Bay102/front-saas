@@ -1,4 +1,8 @@
- .navbottom {
+header { background: rgb(244,249,250);
+         background: linear-gradient(127deg, rgba(244,249,250,1) 74%, rgba(223,233,236,0.9962359943977591) 74%, rgba(223,233,236,1) 100%, rgba(223,233,236,1) 100%);}
+
+
+.navbottom {
     display: flex;
     height: 40px;
     padding: 3px 7px;
@@ -13,12 +17,6 @@
 .frontlogo {
     width: 150px;
     padding: 15px var(--size-10);
-}
-
-.gradient { 
-    background: rgb(244,249,250);
-    background: linear-gradient(127deg, rgba(244,249,250,1) 74%, rgba(223,233,236,0.9962359943977591) 74%, rgba(223,233,236,1) 100%, rgba(223,233,236,1) 100%);
-    margin-top: 15px;
 }
 
 .empower-title {
@@ -73,8 +71,8 @@
 .icon1 {
     grid-column: 1 / 1 ;
     grid-row: 1/1 ;
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
     border-radius: 180px;
     background-color:var(--white);
 }
@@ -82,8 +80,8 @@
 .icon2 {
     grid-column: 1 ;
     grid-row: 3 ;
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     border-radius: 180px;
     background-color: var(--white);
 }
@@ -119,8 +117,8 @@
 .icon6 {
     grid-column: 4;
     grid-row: 3;
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
     border-radius: 180px;
     background-color: var(--white);
 }
