@@ -100,12 +100,12 @@
 
 
 .card1 {
-    width: 325px;
+    width: auto;
     height: max-content;
     margin: auto;
     padding: 10px;
 }
-.hireboxes {
+.hire-boxes {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -222,7 +222,8 @@
 
     .light-text {     
         padding: 0px 5px;
-        text-align: justify;}
+        text-align: center;
+    }
 
     .blue-section { width: 100%;}
     .price-cards { margin: 0; }

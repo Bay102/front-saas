@@ -1,4 +1,4 @@
-.navbottom {
+ .navbottom {
     display: flex;
     height: 40px;
     padding: 3px 7px;
@@ -245,7 +245,7 @@
 
 
 .girl-text {
-    padding-left: 70px;
+    padding-left: 25px;
     max-width: 400px;
     align-self: center;
     min-width: 275px;  
@@ -390,7 +390,10 @@
 }
 
 textarea { 
-    margin: 10px;
+    margin: 5px 0 5px 0;
+    width: 100%;
+    height: 70px;
+    padding: 5px;
     resize: none;
     font-family: sans-serif;
 }
@@ -412,7 +415,10 @@ textarea {
 
 .line1, 
 .line2,
-.line3 { display: flex; }
+.line3 { 
+    display: flex;
+    justify-content: space-around;
+ }
 
  .hire-us-img {
     margin-left: 20px;
