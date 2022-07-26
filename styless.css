@@ -1,6 +1,6 @@
 header {
     background: rgb(255,255,255);
-background: linear-gradient(352deg, rgba(255,255,255,1) 19%, rgba(237,243,245,0.9962359943977591) 19%);
+    background: linear-gradient(352deg, rgba(255,255,255,1) 19%, rgba(237,243,245,0.9962359943977591) 19%);
 }
 
 
@@ -60,7 +60,7 @@ background: linear-gradient(352deg, rgba(255,255,255,1) 19%, rgba(237,243,245,0.
     display: grid;
     grid-template-columns: repeat(5, 75px);
     grid-template-rows: repeat(4, 75px);
-    padding-top: 20px;
+    padding-top: var(--size-20);
     align-items: center;
     justify-items: center;
 }
@@ -82,8 +82,8 @@ background: linear-gradient(352deg, rgba(255,255,255,1) 19%, rgba(237,243,245,0.
 .icon2 {
     grid-column: 1 ;
     grid-row: 3 ;
-    height: 50px;
-    width: 50px;
+    height: var(--size-50);
+    width: var(--size-50);
     border-radius: 180px;
     background-color: var(--white);
 }
@@ -212,9 +212,10 @@ background: linear-gradient(352deg, rgba(255,255,255,1) 19%, rgba(237,243,245,0.
     width: 100%;
 }
 
-.play-btn i { 
-    position: absolute;
-    top: 1750px
+.play-video-btn { 
+    position: relative;
+    right: -568px;
+    bottom: 256px
 }
 
 .dot-grid {

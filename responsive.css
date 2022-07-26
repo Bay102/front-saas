@@ -40,26 +40,27 @@
 .empower-box1 {
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    padding: var(--size-10);
 }
 
 .empower-icons { justify-items: center;}
 
 .empowerfirst {
-    margin-bottom: 50px;
+    margin-bottom: var(--size-50);
     width: inherit;
+    padding: 20px 50px 10px 80px;
 }
 
 .icon4 { display: none;}
 .icon7 {display: none;}
 
-.key-text { margin: 40px; }
+.key-text { margin: var(--size-40); }
 
 .key-benefits-cards { flex-wrap: wrap; }
 
 .card { width: 265px;}
 
-.key-benefits-bottom { margin: 50px auto;}
+.key-benefits-bottom { margin: var(--size-50) auto;}
 
 .ben-bottom {
     flex-wrap: wrap;
@@ -69,6 +70,7 @@
 }
 
 .box1 { 
+    padding: 25px 0;
     width: 90%;
     margin: 10px;
 }
@@ -77,25 +79,52 @@
     margin: 25px 0px 0px 100px;
 }
 
-.girl { margin-left: 0;}
+.girl { margin: auto; }
+
+.girl-pic-container {
+    flex-direction: column; 
+    gap: var(--size-50); 
+}
 
 .girl-pic-wrapper {
     flex-wrap: wrap;
     align-items: center;
 }
 
-.video-pic { height: auto ;}
+.video { 
+    padding: 5px 0;
+    width: 72%;
+}
 
-.girl-text { width: 500px; }
+.video-pic { height: 280px;}
 
-.dot-grid { display: none;}
+.girl-text { 
+    width: 500px;
+    margin-top: 20px;
+ }
+
+.dot-grid { 
+    top: 200px;
+    left: 115px;
+}
 
 .weebly {display: none;}
 .spotify {display: none;}
 
+.price-cards { 
+    padding: 0 65px;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+.price-cards p {
+    padding: 5px 0px;
+
+}
+
 
 .pricing-grid {
-    margin: 5px 10px;
+    margin: 5px var(--size-10);
     display: grid;
     justify-items: start;
     grid-template-columns: repeat(2, 1fr);
@@ -106,10 +135,10 @@
 
 
 .card1 {
-    width: auto;
-    height: max-content;
+    width: 85%;
+    height: 250px;
     margin: auto;
-    padding: 10px;
+    padding: 21px 35px;
 }
 .hire-boxes {
     height: 100%;
@@ -135,21 +164,25 @@
 
 .form { 
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: var(--size-50);
     width: 100%;
 }
 
-.form-btn { margin: auto; }
-
-.form select { width: 200px;}
-
-.bottom {
-    flex-wrap: wrap;
+.form-btn { 
+    margin: auto;
+    width: 94%;
+    border-radius: 5px;
 }
 
-.foot1 {
-    width: 600px;
-}
+.form select { width: 282px; }
+
+.line1, .line2, .line3 { margin: 0;}
+
+ textarea { width: 94%;}
+
+.bottom { flex-wrap: wrap; }
+
+.foot1 { width: 600px; }
 
 .foot {
     width: 250px;
@@ -166,10 +199,14 @@
     margin: 10px 10px;
 }
 
-.footericons {
-    flex-direction: row;
+.footericons { flex-direction: row; }
+
 }
 
+@media screen and (max-width:680px) {
+    .dot-grid {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 390px) {
@@ -191,6 +228,8 @@
         font-weight: 500;
         line-height: 1.1;
     }
+
+    .empowerfirst { padding: 0;}
 
     .video-pic { 
         margin: 20px 20px;
@@ -225,7 +264,7 @@
 
     .light-text {     
         padding: 0px 5px;
-        text-align: center;
+        text-align: left;
     }
 
     .blue-section { width: 100%;}
@@ -233,10 +272,7 @@
     .card2 { margin-top: 60px;}
     .partner-logos { gap: 20px;}
 
-    .hire-boxes { 
-        
-        flex-direction: column;
-    }
+    .hire-boxes { flex-direction: column; }
 
     .beautiful { 
         font-size: 15px;
@@ -248,14 +284,14 @@
     flex-direction: column;
     }
  
-    .form select { width: 86%;}
+    .form select { width: 86%; }
 
     .form { 
         width: min-content;
         height: max-content;
     }
 
-    .footer-bottom { display: initial;}
+    .footer-bottom { display: initial; }
 
     .bottom { 
         gap: 0;

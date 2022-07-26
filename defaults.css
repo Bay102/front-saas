@@ -5,11 +5,7 @@
     --font-color-dark: #212529;
     --font-color-light: #b0aebe;
     --font-color-link: #57a6ff;
-    --footer: #34314b ;
-    --footer-base: #2e2b45;
-    --grad-1: #a1ecff;
-    --grad-2: #7dbcff;
- 
+    
     --size-10: 0.625rem;
     --size-14: 0.875;
     --size-16: 1rem;
@@ -45,7 +41,7 @@ ul {
     margin: 0;
     list-style: none;
     display: flex;
-    gap: 20px;    
+    gap: var(--size-20);    
 }
 
 a {
@@ -90,7 +86,7 @@ img {
     font-size: var(--size-10);
     background-color: blue;
     border-radius: 15px;
-    padding: 10px 15px ;
+    padding: var(--size-10) 15px;
 }
 
 .btn-link {
@@ -98,14 +94,11 @@ img {
 }
 
 .logos {
-    width: 100px;
-    height: 40px;
+    width: var(--size-100);
+    height: var(--size-40);
 }
 
 .light-text { color: var(--font-color-light);}
-
 i { padding-left: 5px;}
-
 h4 { color: var(--font-color-dark);}
-
-.user-pic { border-radius: 50px;}
+.user-pic { border-radius: var(--size-50);}
