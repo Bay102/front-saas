@@ -79,7 +79,10 @@
     margin: 25px 0px 0px 100px;
 }
 
-.girl { margin: auto; }
+.girl { 
+    margin: auto; 
+    width: 74%;
+}
 
 .girl-pic-container {
     flex-direction: column; 
@@ -104,8 +107,14 @@
  }
 
 .dot-grid { 
-    top: 200px;
-    left: 115px;
+    top: 312px;
+    left: 50px;
+}
+
+.partner-logos {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ecebeb;
+    width: 80%;
 }
 
 .weebly {display: none;}
@@ -121,7 +130,6 @@
     padding: 5px 0px;
 
 }
-
 
 .pricing-grid {
     margin: 5px var(--size-10);
@@ -180,7 +188,10 @@
 
  textarea { width: 94%;}
 
-.bottom { flex-wrap: wrap; }
+.bottom { 
+    flex-wrap: wrap; 
+    width: fit-content;
+}
 
 .foot1 { width: 600px; }
 
@@ -203,10 +214,12 @@
 
 }
 
-@media screen and (max-width:680px) {
+@media screen and (max-width:720px) {
     .dot-grid {
         display: none;
     }
+
+  
 }
 
 @media screen and (max-width: 390px) {
@@ -242,6 +255,7 @@
     .why-front-text { padding: 10px;}
 
     .girl { 
+        width: 100%;
         margin: auto;
         padding: 10px;
     }

@@ -3,7 +3,6 @@ header {
     background: linear-gradient(352deg, rgba(255,255,255,1) 19%, rgba(237,243,245,0.9962359943977591) 19%);
 }
 
-
 .navbottom {
     display: flex;
     height: 40px;
@@ -41,6 +40,10 @@ header {
     font-size: var(--size-40);
     color: var(--black);
     align-items: flex-end;
+    border-bottom: 1px solid #e3dadae8;
+    padding-bottom: 10px;
+    width: 90%;
+    margin-bottom: 10px;
 }
 
 .month { 
@@ -159,12 +162,13 @@ header {
 
 .key-benefits-cards {
     display: flex;
-    gap: 30px;
+    gap: 5px;
 }
 
 .key-benefits-cards img {width: 30px;}
 
 .ben-bottom {
+    margin: auto;
     height: 375px;
     width: 89%;
     display: flex;
@@ -173,7 +177,7 @@ header {
 }
 
 .box1{ 
-    margin: 100px 30px;
+    margin: 110px 30px;
     color: var(--black);
     width: 40%;
     font-weight: 550;
@@ -181,10 +185,12 @@ header {
     line-height: 1.1;
 }
 
+.box1 div { margin-bottom: 15px;}
+
 .box2 { 
     margin: auto;
     width: 60%;
-    margin: 60px 0px 0px 100px;
+    margin: 53px 0px 0px 100px;
 
 }
 
@@ -282,6 +288,7 @@ header {
     font-size: var(--size-10);
 }
 
+
 .prices { text-align: center; }
 
 .pricing-grid {
@@ -305,7 +312,7 @@ header {
     justify-items: center;
     width: 350px;
     height: 300px;
-    margin: 35px 30px;
+    margin: 35px 20px 35px 0px;
     padding: 35px;
     box-shadow: 0px 0px 20px rgba(52, 49, 75, 0.1);
     border-radius: var(--size-10);
@@ -348,7 +355,7 @@ header {
 .hire-box1 {
     text-align: left;
     width: 50%;
-    padding: 30px;
+    padding: 90px;
 }
 
 .hire-box1 h4 {
