@@ -1,6 +1,6 @@
 header {
-    background: rgb(255,255,255);
-    background: linear-gradient(352deg, rgba(255,255,255,1) 19%, rgba(237,243,245,0.9962359943977591) 19%);
+    background: rgb(17, 15, 15);
+    background: linear-gradient(342deg, rgb(245, 241, 241) 19%, rgba(14, 14, 15, 0.996) 19%);
 }
 
 .navbottom {
@@ -22,7 +22,7 @@ header {
 
 .empower-title {
     font-size: 53px;
-    color: var(--black);
+    color: var(--white);
     font-weight: 550;
     line-height: 1;
 }
@@ -141,9 +141,11 @@ header {
 
 .empowerfirst a { margin-right: 15px;}
 
-.card:hover { background-color:gainsboro;}
+.card:hover { background-color:rgb(56, 31, 200);}
 
 .card {
+    color: white;
+    background-color: black;
     width: 275px;
     min-width: 175px;
     margin: auto;
