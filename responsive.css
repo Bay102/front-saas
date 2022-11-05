@@ -26,14 +26,14 @@
 
      .container { padding: 0;}
 
-.navbar-toggler {
+/* .navbar-toggler {
     position: absolute;
     left: 93%;
     background-color: transparent;
     border: 2px solid blue;
     border-radius: 3px;
     z-index: 1000;
-}
+} */
 
 .btnn { color: white;}
 
