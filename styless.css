@@ -1,5 +1,6 @@
 header {
-    background: linear-gradient(352deg, rgb(247 247 247) 19%, rgb(22 22 79) 19%);}
+
+}
 
 .navbottom {
     display: flex;
@@ -23,6 +24,7 @@ header {
     color: var(--white);
     font-weight: 550;
     line-height: 1;
+    margin-bottom: 15px;
 }
 
 .intro { 
@@ -135,7 +137,10 @@ header {
     background-color:var(--white);
 }
 
-.empowerfirst { width: 45%; }
+.empowerfirst { 
+    width: 45%; 
+    letter-spacing: 4.5px;
+}
 
 .empowerfirst a { margin-right: 15px;}
 
@@ -143,7 +148,7 @@ header {
 
 .card {
     color:white;
-    background-color:rgb(22 22 79);
+    background-color:#4747A1;
     width: 275px;
     min-width: 175px;
     margin: auto;
@@ -326,7 +331,7 @@ header {
     height: 600px;
     margin-bottom: 30px;
     padding: 0 10px;
-    background-color: rgb(26, 23, 110);
+    background-color: #4747A1;
     background-image: url("/assets/saas-project-assets/abstract/hire-us-transparent-pattern-bg.svg");
 }
 
@@ -474,4 +479,28 @@ textarea {
     text-align: center;
     margin: 15px 100px;
     font-size: var(--size-10);
+}
+
+
+.custom-shape-divider-top-1675171864 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+.custom-shape-divider-top-1675171864 svg {
+    position: relative;
+    display: block;
+    width: calc(162% + 1.3px);
+    height: 500px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1675171864 .shape-fill {
+    fill: #4747A1;
 }
